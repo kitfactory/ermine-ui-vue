@@ -1,5 +1,8 @@
 <template>
     <div class="myview">
+        <div class="alert alert-danger" role="alert">
+            A simple danger alert—check it out!
+        </div>
         <h1>{{ msg }}</h1>
         <button v-on:click="greet()">Button</button>
         <ul id="example-1">

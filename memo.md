@@ -373,5 +373,17 @@ export default {
 画面の切り替えを行いたい場合、Vue Routerを使います。ルーティングを行うことで、routerに割り当てたコンポーネントの中をURLに応じて切り替えることが可能になります。vue cliではプロジェクトを作成する際に、routerを含めることができます。
 
 
+## API
 
-# デザインを加える
+axiosを使用します。
+
+
+
+
+# Bootstrapによるデザインを加える
+
+```
+> npm install bootstrap jquery popper --save
+
+```
+
